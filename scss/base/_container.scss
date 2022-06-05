@@ -1,0 +1,30 @@
+.container{
+
+    width: 1200px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    }
+    .header-container{
+        display:flex;
+      align-items: center;
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+      }
+
+      .hero-container{
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        padding: 200px 0px;
+            text-align: center;
+        
+        }
+
+        .portf-ul-container{
+            display: flex;
+        }

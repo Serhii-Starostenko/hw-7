@@ -11,6 +11,7 @@
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
 <!-- Преимущества -->
 <section class="section">
     <div class="container">
-    <h2 class="benefits-title" >Преимущества</h2>
+    <h2 class="overflow-title" >Преимущества</h2>
     <ul class="benefits-list">
 
          <li class="benefits-lists">
@@ -290,32 +291,32 @@
     </div>
 
     <div class="footer-icon">
-        <h2>ПРИСОЕДИНЯЙТЕСЬ</h2>
-        <ul class="icon-list-footer">
-            <li ><a class="footer-icon-list" href="#">
+        <h2 class="footer-call">ПРИСОЕДИНЯЙТЕСЬ</h2>
+        <ul class="footer-connect-list">
+            <li class="footer-connect" ><a class="footer-icon-list" href="#">
                     <svg width="20px" height="20px" class="network-footer">
                         <use href="./images/icons.svg#instagram" ></use>
                     </svg>
                 </a></li>
-            <li><a class="footer-icon-list" href="#">
+            <li class="footer-connect"><a class="footer-icon-list" href="#">
                     <svg width="20" height="20" class="network-footer">
                         <use href="./images/icons.svg#twitter"></use>
                     </svg>
                 </a></li>
-            <li><a class="footer-icon-list" href="#">
+            <li class="footer-connect"><a class="footer-icon-list" href="#">
                     <svg width="20px" height="20px" class="network-footer">
                         <use href="./images/icons.svg#facebook" ></use>
                     </svg>
                 </a></li>
-            <li><a class="footer-icon-list" href="#">
+            <li class="footer-connect"><a class="footer-icon-list" href="#">
                     <svg width="20px" height="20px" class="network-footer">
                         <use href="./images/icons.svg#linkedin" ></use>
                     </svg>
                 </a></li>
         </ul>
     </div>
-    <div class="footer-mail-cont">
-        <h2>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+    <div >
+        <h2 class="footer-form">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
             <form class="footer-mail" name="footer-mail" autocomplete="on">
                 <label for="email">
                     <input class="email-footer" type="email" name="email" id="email" placeholder="E-mail">
@@ -336,7 +337,7 @@
     </svg></button>
 
     <form class="modal-form" autocomplete="on">
-        <div class="modal-titile"><b>Оставьте свои данные, мы вам перезвоним</b></div>
+        <b class="modal-titile">Оставьте свои данные, мы вам перезвоним</b>
         
        <div class="form-fild">
            <input class="modal-input" type="text"name="name" id="name"  >
@@ -364,7 +365,8 @@
        </div>
         <div class="form-fild">
             <label class="modal-label"  for="coment"> Коментарий</label>
-            <textarea class="input-tetxterea"  name="coment" id="coment"  rows="10"  placeholder="Введите текст" ></textarea>
+            <textarea class="input-tetxterea"  name="coment" id="coment"  rows="10" 
+             placeholder="Введите текст" ></textarea>
             
         </div>
        

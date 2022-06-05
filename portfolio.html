@@ -11,55 +11,54 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-<header class="headers">
-    <div class="header-container">
-        <nav class="cont-position">
-            <a class="logo-color" href="./index.html"> <span class="logo"> Web</span>Studio</a>
+    <header class="header" >
+       
+        <div class="header-container" >  
+        <nav class="nav-position">
+        <a class="logo-color" href="./index.html"> <span class="logo"> Web</span>Studio</a>
             <ul class="nav-menu">
-                <li><a class="nav-link"  href="./index.html">Студия</a> </li>
-                <li><a class="link-ative" href="./portfolio.html">Портфолио</a> </li>
-                <li><a class="nav-link" href="#">Контакты</a> </li>
+                <li class="nav-list"><a class="nav-link" href="./index.html">Студия</a> </li>
+                <li class="nav-list"><a class="link-ative" href="./portfolio.html">Портфолио</a> </li>
+                <li class="nav-list"><a class="nav-link" href="#">Контакты</a> </li>
             </ul>
         </nav>
-        <ul class="contacts">
-            <li> <a class="contact-mail" href="mailto:info@devstudio.com;">
-                    <svg width="16px" height="12px" class="icon-mail">
-                        <use href="./images/icons.svg#mail"></use>
-                    </svg>info@devstudio.com</a></li>
+        <ul class="contacts" >
+            <li> <a  class="contact-mail" href="mailto:info@devstudio.com;">
+                <svg width="16px" height="12px" class="icon-mail">
+                <use href="./images/icons.svg#mail"></use>
+            </svg>info@devstudio.com</a></li>
             <li>
-                <a class="contact-tel" href="tel:+380961111111;"><svg width="10px" height="16px" class="icon-tel">
-                        <use href="./images/icons.svg#tel"></use>
-                    </svg>+38 096 111 11 11</a>
-            </li>
+                 <a class="contact-tel" href="tel:+380961111111;"><svg width="10px" height="16px" class="icon-tel">
+                    <use href="./images/icons.svg#tel"></use>
+                </svg>+38 096 111 11 11</a></li>
         </ul>
     </div>
-</header>
+    </header>
     <main >
         
        <section class="section">
-        <div class="main-container">
-        <div class="portf-container">
-            <h1 class="benefits-title">Портфолио</h1>
+        <div class="container">
+            <h1 class="overflow-title">Портфолио</h1>
           <div class="portf-ul-container">
             <ul class="portf-ul">
-               <li class="portf-li"><button class="portf-button" type="button"> Все</button></li>
-               <li class="portf-li"><button class="portf-button-web" type="button">Веб-сайты</button></li>
-               <li class="portf-li"><button class="portf-button-web" type="button">Приложения</button></li>
-               <li class="portf-li"><button class="portf-button-web" type="button">Дизайн</button></li>
-               <li class="portf-li"><button class="portf-button-web" type="button">Маркетинг</button></li>
+               <li class="portf-list"><button class="portf-button" type="button"> Все</button></li>
+               <li class="portf-list"><button class="portf-button-web" type="button">Веб-сайты</button></li>
+               <li class="portf-list"><button class="portf-button-web" type="button">Приложения</button></li>
+               <li class="portf-list"><button class="portf-button-web" type="button">Дизайн</button></li>
+               <li class="portf-list"><button class="portf-button-web" type="button">Маркетинг</button></li>
            </ul>
         </div>
-        <h2 class="benefits-title" >Проєкти</h2>
-        <div class="progect-list-container">
+        <h2 class="overflow-title" >Проєкти</h2>
            <ul class="progect-list">
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
                   <div class="product">
                        <img  src="./images/tc.jpg" alt="Фото логотипа" width="370" >
 
-                       <div class="progect-titile">
-                        <p  class="progect-img">
+                       <div class="product-titile">
+                        <p  class="product-img">
                             Ресурс предлагает <br> комплексные предложения 
                             с разным уровнем функционала и сервисов.
                              Все это позволит посетителю получить
@@ -67,18 +66,19 @@
                         </p>
                     </div>
                 </div>
-                <div class="progekt-signature">
-                   <h3>Технокряк</h3>
-                    <p class="progect-list-p" >Веб-сайт </p>
+                <div class="product-signature">
+                   <h3 class="product-name" >Технокряк</h3>
+                    <p class="product-list-p" >Веб-сайт </p>
                     </div>
                 </a>
                 </li>
-                <li class="items" > <a href="#">
-                    <div class="product">
-                    <img class="progect-img" src="./images/newOrl.jpg" alt="Фото логотипа" width="370px" >
+                <li class="progect-items" > <a class="progect-link" href="#">
 
-                    <div class="progect-titile">
-                        <p  class="progect-img">
+                    <div class="product">
+                    <img class="product-img" src="./images/newOrl.jpg" alt="Фото логотипа" width="370px" >
+
+                    <div class="product-titile">
+                        <p  class="product-img">
                             Ресурс предлагает <br> комплексные предложения 
                             с разным уровнем функционала и сервисов.
                              Все это позволит посетителю получить
@@ -88,17 +88,18 @@
                 </div>
 
 
-                   <div class="progekt-signature">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p class="progect-list-p">Дизайн</p>
+                   <div class="product-signature">
+                    <h3 class="product-name">Постер New Orlean vs Golden Star</h3>
+                    <p class="product-list-p">Дизайн</p>
                     </div>
                 </a>
                 </li>
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
+
                     <div class="product">
-                        <img class="progect-img" src="./images/seafood.jpg" alt="Фото логотипа" width="" >
-                        <div class="progect-titile">
-                            <p  class="progect-img">
+                        <img class="product-img" src="./images/seafood.jpg" alt="Фото логотипа" width="" >
+                        <div class="product-titile">
+                            <p  class="product-img">
                                 Ресурс предлагает <br> комплексные предложения 
                                 с разным уровнем функционала и сервисов.
                                  Все это позволит посетителю получить
@@ -106,17 +107,17 @@
                             </p>
                         </div>
                     </div>
-                   <div class="progekt-signature">
-                    <h3>Ресторан Seafood</h3>
-                    <p class="progect-list-p">Приложение</p>
+                   <div class="product-signature">
+                    <h3 class="product-name">Ресторан Seafood</h3>
+                    <p class="product-list-p">Приложение</p>
                     </div>
                 </a>
                 </li>
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
                     <div class="product"> 
-                    <img class="progect-img" src="./images/prime.jpg" alt="Фото логотипа" width="370" >
-                    <div class="progect-titile">
-                        <p  class="progect-img">
+                    <img class="product-img" src="./images/prime.jpg" alt="Фото логотипа" width="370" >
+                    <div class="product-titile">
+                        <p  class="product-img">
                             Ресурс предлагает <br> комплексные предложения 
                             с разным уровнем функционала и сервисов.
                              Все это позволит посетителю получить
@@ -125,18 +126,18 @@
                     </div>
                 </div>
 
-                   <div class="progekt-signature">
-                    <h3>Проект Prime</h3>
-                    <p class="progect-list-p">Маркетинг</p>
+                   <div class="product-signature">
+                    <h3 class="product-name">Проект Prime</h3>
+                    <p class="product-list-p">Маркетинг</p>
                     </div>
                 </a>
                 </li>
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
 
                     <div class="product">
-                        <img  class="progect-img" src="./images/boxsses.jpg" alt="Фото логотипа" width="370" >
-                        <div class="progect-titile">
-                            <p  class="progect-img">
+                        <img  class="product-img" src="./images/boxsses.jpg" alt="Фото логотипа" width="370" >
+                        <div class="product-titile">
+                            <p  class="product-img">
                                 Ресурс предлагает <br> комплексные предложения 
                                 с разным уровнем функционала и сервисов.
                                  Все это позволит посетителю получить
@@ -144,18 +145,18 @@
                             </p>
                         </div>
                     </div>
-                   <div class="progekt-signature">
-                    <h3>Проект Boxes</h3>
-                    <p class="progect-list-p">Приложение</p>
+                   <div class="product-signature">
+                    <h3 class="product-name">Проект Boxes</h3>
+                    <p class="product-list-p">Приложение</p>
                     </div>
                 </a>
                 </li>
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
                   
                     <div class="product">
-                    <img class="progect-img"  src="./images/inspir.jpg" alt="Фото логотипа" width="370" >
-                    <div class="progect-titile">
-                        <p  class="progect-img">
+                    <img class="product-img"  src="./images/inspir.jpg" alt="Фото логотипа" width="370" >
+                    <div class="product-titile">
+                        <p  class="product-img">
                             Ресурс предлагает <br> комплексные предложения 
                             с разным уровнем функционала и сервисов.
                              Все это позволит посетителю получить
@@ -163,19 +164,19 @@
                         </p>
                     </div>
                 </div>
-                    <div class="progekt-signature">
-                    <h3>Inspiration has no Borders</h3>
-                    <p class="progect-list-p">Веб-сайт</p>
+                    <div class="product-signature">
+                    <h3 class="product-name">Inspiration has no Borders</h3>
+                    <p class="product-list-p">Веб-сайт</p>
                     </div>
                 </a>
                 </li>
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
                   
                     <div class="product">
                    
-                        <img class="progect-img" src="./images/lim.jpg" alt="Фото логотипа" width="370" >
-                        <div class="progect-titile">
-                            <p  class="progect-img">
+                        <img class="product-img" src="./images/lim.jpg" alt="Фото логотипа" width="370" >
+                        <div class="product-titile">
+                            <p  class="product-img">
                                 Ресурс предлагает <br> комплексные предложения 
                                 с разным уровнем функционала и сервисов.
                                  Все это позволит посетителю получить
@@ -185,18 +186,18 @@
                     </div>
 
                  
-                    <div class="progekt-signature">
-                    <h3>Издание Limited Edition</h3>
-                    <p class="progect-list-p">Дизайн</p>
+                    <div class="product-signature">
+                    <h3 class="product-name">Издание Limited Edition</h3>
+                    <p class="product-list-p">Дизайн</p>
                     </div>
                 </a>
                 </li>
-                 <li class="items" > <a href="#">
+                 <li class="progect-items" > <a class="progect-link" href="#">
                    
                     <div class="product">
-                    <img class="progect-img" src="./images/lab.jpg" alt="Фото логотипа" width="370" >
-                    <div class="progect-titile">
-                        <p  class="progect-img">
+                    <img class="product-img" src="./images/lab.jpg" alt="Фото логотипа" width="370" >
+                    <div class="product-titile">
+                        <p  class="product-img">
                             Ресурс предлагает <br> комплексные предложения 
                             с разным уровнем функционала и сервисов.
                              Все это позволит посетителю получить
@@ -205,18 +206,18 @@
                     </div>
                 </div>
                    
-                    <div class="progekt-signature">
-                    <h3>Проект LAB</h3>
-                    <p class="progect-list-p">Маркетинг</p>
+                    <div class="product-signature">
+                    <h3 class="product-name">Проект LAB</h3>
+                    <p class="product-list-p">Маркетинг</p>
                     </div>
                 </a>
                  </li>
-                <li class="items" > <a href="#">
+                <li class="progect-items" > <a class="progect-link" href="#">
                   
                     <div class="product">
-                    <img class="progect-img" src="./images/groving.jpg" alt="Фото логотипа" width="370" >
-                    <div class="progect-titile">
-                        <p  class="progect-img">
+                    <img class="product-img" src="./images/groving.jpg" alt="Фото логотипа" width="370" >
+                    <div class="product-titile">
+                        <p  class="product-img">
                             Ресурс предлагает <br> комплексные предложения 
                             с разным уровнем функционала и сервисов.
                              Все это позволит посетителю получить
@@ -224,56 +225,69 @@
                         </p>
                     </div>
                 </div>
-                    <div class="progekt-signature">
-                    <h3>Growing Business</h3>
-                    <p class="progect-list-p">Приложение</p>
+                    <div class="product-signature">
+                    <h3 class="product-name">Growing Business</h3>
+                    <p class="product-list-p">Приложение</p>
                     </div>
                 </a>
                 </li>
            </ul>
-        </div>
+        
         </div>
         </div>
        </section>
     </main>                
-<footer class="my-footer">
-    <div class="footer-content">
-        <div>
-            <a class="logo-color-footer" href="./index.html"> <span class="logo"> Web</span>Studio</a>
-            <address>
-                <p class="my-location">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="contacts-footer">
-                    <li><a class="contact-footer" href="mailto:info@devstudio.com;">info@devstudio.com</a></li>
-                    <li> <a class="contact-footer" href="tel:+380961111111;">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+    <footer class="my-footer">
+        <div class="footer-content">
+            <div>
+        <a class="logo-color-footer" href="./index.html"> <span class="logo"> Web</span>Studio</a>
+        <address>
+            <p class="my-location">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="contacts-footer">
+                <li class="contacts-list"><a class="contact-footer" href="mailto:info@devstudio.com;">info@devstudio.com</a></li>
+                <li class="contacts-list"> <a class="contact-footer" href="tel:+380961111111;">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
         </div>
+    
         <div class="footer-icon">
-            <h2>ПРИСОЕДИНЯЙТЕСЬ</h2>
+            <h2 class="footer-call">ПРИСОЕДИНЯЙТЕСЬ</h2>
             <ul class="icon-list-footer">
-                <li><a class="footer-icon-list" href="#">
+                <li class="footer-connect" ><a class="footer-icon-list" href="#">
                         <svg width="20px" height="20px" class="network-footer">
-                            <use href="./images/icons.svg#instagram"></use>
+                            <use href="./images/icons.svg#instagram" ></use>
                         </svg>
                     </a></li>
-                <li><a class="footer-icon-list" href="#">
+                <li class="footer-connect"><a class="footer-icon-list" href="#">
                         <svg width="20" height="20" class="network-footer">
                             <use href="./images/icons.svg#twitter"></use>
                         </svg>
                     </a></li>
-                <li><a class="footer-icon-list" href="#">
+                <li class="footer-connect"><a class="footer-icon-list" href="#">
                         <svg width="20px" height="20px" class="network-footer">
-                            <use href="./images/icons.svg#facebook"></use>
+                            <use href="./images/icons.svg#facebook" ></use>
                         </svg>
                     </a></li>
-                <li><a class="footer-icon-list" href="#">
+                <li class="footer-connect"><a class="footer-icon-list" href="#">
                         <svg width="20px" height="20px" class="network-footer">
-                            <use href="./images/icons.svg#linkedin"></use>
+                            <use href="./images/icons.svg#linkedin" ></use>
                         </svg>
                     </a></li>
             </ul>
         </div>
-    </div>
-</footer>
+        <div >
+            <h2 class="footer-form">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+                <form class="footer-mail" name="footer-mail" autocomplete="on">
+                    <label for="email">
+                        <input class="email-footer" type="email" name="email" id="email" placeholder="E-mail">
+                    </label>
+            <button  class="btn-footer-mail" type="submit">Подписаться <svg class="send-svg" width="24" height="24">
+                <use href="./images/icons.svg#send" ></use>
+            </svg></button>
+                </form>
+            </div>
+      
+     
+    </footer>
 </body>
 </html> 
