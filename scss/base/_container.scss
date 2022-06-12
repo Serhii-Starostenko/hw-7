@@ -6,6 +6,9 @@
     padding-right: 15px;
     margin: 0 auto;
     }
+    
+
+
     .header-container{
         display:flex;
       align-items: center;
@@ -14,6 +17,14 @@
       padding-right: 15px;
       margin: 0 auto;
       }
+
+      
+.header{
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+    background-color: var(--background-color);
+}
+
+
 
       .hero-container{
         width: 1200px;
@@ -24,7 +35,30 @@
             text-align: center;
         
         }
+        .section-hero{
+    
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        
+        
+        background-color:rgba(47, 48, 58, 1);
+        background-image: linear-gradient(to left,rgba(47, 48, 58, 0.4)
+        ,rgba(47, 48, 58, 0.4) ),
+        url(../images/hero-bgr.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        } 
 
         .portf-ul-container{
             display: flex;
         }
+
+
+        .section-team{
+            background-color: #F5F4FA;
+            padding: 94px 0px;
+            }
+            

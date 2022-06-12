@@ -9,10 +9,15 @@
 @import"./base/container";
 
 // Components
-
+@import"./components/navigation";
+@import"./components/title";
+@import"./components/lists";
+@import"./components/clients";
 @import"./components/button";
 @import"./components/social";
 @import"./components/contact";
+@import"./components/footer";
 @import"./components/logo";
 @import"./components/modal";
 @import"./components/form";
+
